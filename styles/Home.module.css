@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.accountAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+
+.accountStatus {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.accountButton {
+  border: none;
+  border-radius: 10px;
+  background-color: #562bf7;
+  font-size: 15px;
+  color: white;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.connectButton {
+  background-color: #562bf7;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: Montserrat;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 75px;
+  width: 300px;
+  cursor: pointer;
+  transition: background-color 0.2s
+}
+
+.connectButton:hover {
+  background-color: #5732ddf5;
+}
